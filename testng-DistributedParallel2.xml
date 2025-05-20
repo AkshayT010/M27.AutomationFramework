@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite">
+  <test thread-count="2" name="TestRunner1">
+    <classes>
+      <class name="inventoryTests.AddProductToCartTest"/>
+      <class name="inventoryTests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="2" name="TestRunner2">
+    <classes>
+      <class name="inventoryTests.AddMultipleProductToCartTest"/>
+      <class name="inventoryTests.AddLowestPriceProductToCartText"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

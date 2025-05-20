@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-14T10:59:08 IST" name="Suite" finished-at="2025-05-14T10:59:19 IST" duration-ms="10627">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="AddLowestPriceProductToCartText.tc_02_AddLowestPriceProductToCartText()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@37ceb1df]" name="tc_02_AddLowestPriceProductToCartText" class="inventoryTests.AddLowestPriceProductToCartText"/>
+        <method signature="LoginTest.tc_03_LoginTest()[pri:0, instance:inventoryTests.LoginTest@131ef10]" name="tc_03_LoginTest" class="inventoryTests.LoginTest"/>
+      </group> <!-- RegressionSuite -->
+    </groups>
+    <test started-at="2025-05-14T10:59:08 IST" name="Test" finished-at="2025-05-14T10:59:19 IST" duration-ms="10627">
+      <class name="inventoryTests.LoginTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:inventoryTests.LoginTest@131ef10]" started-at="2025-05-14T10:59:08 IST" name="bsConfig" finished-at="2025-05-14T10:59:08 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:inventoryTests.LoginTest@131ef10]" started-at="2025-05-14T10:59:09 IST" name="bcConfig" finished-at="2025-05-14T10:59:13 IST" duration-ms="3918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:inventoryTests.LoginTest@131ef10]" started-at="2025-05-14T10:59:13 IST" name="bmConfig" finished-at="2025-05-14T10:59:13 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="tc_03_LoginTest()[pri:0, instance:inventoryTests.LoginTest@131ef10]" started-at="2025-05-14T10:59:13 IST" name="tc_03_LoginTest" finished-at="2025-05-14T10:59:15 IST" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_03_LoginTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:inventoryTests.LoginTest@131ef10]" started-at="2025-05-14T10:59:15 IST" name="amConfig" finished-at="2025-05-14T10:59:15 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:inventoryTests.LoginTest@131ef10]" started-at="2025-05-14T10:59:15 IST" name="acConfig" finished-at="2025-05-14T10:59:16 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:inventoryTests.LoginTest@131ef10]" started-at="2025-05-14T10:59:19 IST" name="asConfig" finished-at="2025-05-14T10:59:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- inventoryTests.LoginTest -->
+      <class name="inventoryTests.AddLowestPriceProductToCartText">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@37ceb1df]" started-at="2025-05-14T10:59:16 IST" name="bcConfig" finished-at="2025-05-14T10:59:17 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@37ceb1df]" started-at="2025-05-14T10:59:17 IST" name="bmConfig" finished-at="2025-05-14T10:59:18 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="tc_02_AddLowestPriceProductToCartText()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@37ceb1df]" started-at="2025-05-14T10:59:18 IST" name="tc_02_AddLowestPriceProductToCartText" finished-at="2025-05-14T10:59:19 IST" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02_AddLowestPriceProductToCartText -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@37ceb1df]" started-at="2025-05-14T10:59:19 IST" name="amConfig" finished-at="2025-05-14T10:59:19 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@37ceb1df]" started-at="2025-05-14T10:59:19 IST" name="acConfig" finished-at="2025-05-14T10:59:19 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- inventoryTests.AddLowestPriceProductToCartText -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
