@@ -48,7 +48,7 @@ public class BaseClass {
 	{
 		String URL = fUtil.readDataFromPropertyFile("url");
 		
-		driver = new ChromeDriver();
+		driver = new EdgeDriver();
 		
 		//For cross browser execution -- This is example of Runtime Polymorphism - driver
 		

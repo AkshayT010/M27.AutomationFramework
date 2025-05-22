@@ -1,114 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-22T09:20:02 IST" name="Default suite" finished-at="2025-05-22T09:20:22 IST" duration-ms="19666">
+  <suite started-at="2025-05-22T11:00:29 IST" name="Suite" finished-at="2025-05-22T11:00:45 IST" duration-ms="15567">
     <groups>
       <group name="RegressionSuite">
-        <method signature="AddLowestPriceProductToCartText.tc_02_AddLowestPriceProductToCartText()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@544fa968]" name="tc_02_AddLowestPriceProductToCartText" class="inventoryTests.AddLowestPriceProductToCartText"/>
+        <method signature="AddLowestPriceProductToCartText.tc_02_AddLowestPriceProductToCartText()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@23348b5d]" name="tc_02_AddLowestPriceProductToCartText" class="inventoryTests.AddLowestPriceProductToCartText"/>
+        <method signature="LoginTest.tc_03_LoginTest()[pri:0, instance:inventoryTests.LoginTest@77f1baf5]" name="tc_03_LoginTest" class="inventoryTests.LoginTest"/>
       </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="AddProductToCartTest.tc_01_AddProductToCartTest()[pri:0, instance:inventoryTests.AddProductToCartTest@38afe297]" name="tc_01_AddProductToCartTest" class="inventoryTests.AddProductToCartTest"/>
+      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2025-05-22T09:20:02 IST" name="Default test" finished-at="2025-05-22T09:20:22 IST" duration-ms="19666">
-      <class name="inventoryTests.AddLowestPriceProductToCartText">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@544fa968]" started-at="2025-05-22T09:20:02 IST" name="bsConfig" finished-at="2025-05-22T09:20:02 IST" duration-ms="7" status="PASS">
+    <test started-at="2025-05-22T11:00:29 IST" name="Test" finished-at="2025-05-22T11:00:45 IST" duration-ms="15567">
+      <class name="inventoryTests.LoginTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:inventoryTests.LoginTest@77f1baf5]" started-at="2025-05-22T11:00:29 IST" name="bsConfig" finished-at="2025-05-22T11:00:29 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@544fa968]" started-at="2025-05-22T09:20:02 IST" name="bcConfig" finished-at="2025-05-22T09:20:09 IST" duration-ms="6695" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:inventoryTests.LoginTest@77f1baf5]" started-at="2025-05-22T11:00:29 IST" name="bcConfig" finished-at="2025-05-22T11:00:32 IST" duration-ms="2467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@544fa968]" started-at="2025-05-22T09:20:09 IST" name="bmConfig" finished-at="2025-05-22T09:20:09 IST" duration-ms="299" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:inventoryTests.LoginTest@77f1baf5]" started-at="2025-05-22T11:00:32 IST" name="bmConfig" finished-at="2025-05-22T11:00:32 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="tc_02_AddLowestPriceProductToCartText()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@544fa968]" started-at="2025-05-22T09:20:09 IST" name="tc_02_AddLowestPriceProductToCartText" finished-at="2025-05-22T09:20:20 IST" duration-ms="10805" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart"}
-  (Session info: chrome=136.0.7103.114)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0a0cbad0d52ffc649609751520bc1b3d, findElement {using=id, value=add-to-cart}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58565/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0a0cbad0d52ffc649609751520bc1b3d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#add\-to\-cart"}
-  (Session info: chrome=136.0.7103.114)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0a0cbad0d52ffc649609751520bc1b3d, findElement {using=id, value=add-to-cart}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\Acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58565/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0a0cbad0d52ffc649609751520bc1b3d
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
-at objectRepository.InventoryItomPage.clickOnAddTocartBtn(InventoryItomPage.java:43)
-at inventoryTests.AddLowestPriceProductToCartText.tc_02_AddLowestPriceProductToCartText(AddLowestPriceProductToCartText.java:66)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="tc_03_LoginTest()[pri:0, instance:inventoryTests.LoginTest@77f1baf5]" started-at="2025-05-22T11:00:32 IST" name="tc_03_LoginTest" finished-at="2025-05-22T11:00:34 IST" duration-ms="2045" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc_02_AddLowestPriceProductToCartText -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@544fa968]" started-at="2025-05-22T09:20:20 IST" name="amConfig" finished-at="2025-05-22T09:20:20 IST" duration-ms="246" status="PASS">
+        </test-method> <!-- tc_03_LoginTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:inventoryTests.LoginTest@77f1baf5]" started-at="2025-05-22T11:00:34 IST" name="amConfig" finished-at="2025-05-22T11:00:34 IST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@544fa968]" started-at="2025-05-22T09:20:20 IST" name="acConfig" finished-at="2025-05-22T09:20:22 IST" duration-ms="1131" status="PASS">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:inventoryTests.LoginTest@77f1baf5]" started-at="2025-05-22T11:00:34 IST" name="acConfig" finished-at="2025-05-22T11:00:35 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@544fa968]" started-at="2025-05-22T09:20:22 IST" name="asConfig" finished-at="2025-05-22T09:20:22 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:inventoryTests.LoginTest@77f1baf5]" started-at="2025-05-22T11:00:45 IST" name="asConfig" finished-at="2025-05-22T11:00:45 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asConfig -->
+      </class> <!-- inventoryTests.LoginTest -->
+      <class name="inventoryTests.AddMultipleProductToCartTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:inventoryTests.AddMultipleProductToCartTest@2df3b89c]" started-at="2025-05-22T11:00:38 IST" name="bcConfig" finished-at="2025-05-22T11:00:40 IST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:inventoryTests.AddMultipleProductToCartTest@2df3b89c]" started-at="2025-05-22T11:00:40 IST" name="bmConfig" finished-at="2025-05-22T11:00:40 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="tc_04_AddMultipleProductToCartTest()[pri:0, instance:inventoryTests.AddMultipleProductToCartTest@2df3b89c]" started-at="2025-05-22T11:00:40 IST" name="tc_04_AddMultipleProductToCartTest" finished-at="2025-05-22T11:00:42 IST" duration-ms="1510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_04_AddMultipleProductToCartTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:inventoryTests.AddMultipleProductToCartTest@2df3b89c]" started-at="2025-05-22T11:00:42 IST" name="amConfig" finished-at="2025-05-22T11:00:42 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:inventoryTests.AddMultipleProductToCartTest@2df3b89c]" started-at="2025-05-22T11:00:42 IST" name="acConfig" finished-at="2025-05-22T11:00:42 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- inventoryTests.AddMultipleProductToCartTest -->
+      <class name="inventoryTests.AddLowestPriceProductToCartText">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@23348b5d]" started-at="2025-05-22T11:00:42 IST" name="bcConfig" finished-at="2025-05-22T11:00:44 IST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@23348b5d]" started-at="2025-05-22T11:00:44 IST" name="bmConfig" finished-at="2025-05-22T11:00:44 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="tc_02_AddLowestPriceProductToCartText()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@23348b5d]" started-at="2025-05-22T11:00:44 IST" name="tc_02_AddLowestPriceProductToCartText" finished-at="2025-05-22T11:00:44 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02_AddLowestPriceProductToCartText -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@23348b5d]" started-at="2025-05-22T11:00:44 IST" name="amConfig" finished-at="2025-05-22T11:00:45 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:inventoryTests.AddLowestPriceProductToCartText@23348b5d]" started-at="2025-05-22T11:00:45 IST" name="acConfig" finished-at="2025-05-22T11:00:45 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
       </class> <!-- inventoryTests.AddLowestPriceProductToCartText -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="inventoryTests.AddProductToCartTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:inventoryTests.AddProductToCartTest@38afe297]" started-at="2025-05-22T11:00:35 IST" name="bcConfig" finished-at="2025-05-22T11:00:36 IST" duration-ms="1743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:inventoryTests.AddProductToCartTest@38afe297]" started-at="2025-05-22T11:00:36 IST" name="bmConfig" finished-at="2025-05-22T11:00:37 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="samepleTest()[pri:0, instance:inventoryTests.AddProductToCartTest@38afe297]" started-at="2025-05-22T11:00:37 IST" name="samepleTest" finished-at="2025-05-22T11:00:37 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samepleTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:inventoryTests.AddProductToCartTest@38afe297]" started-at="2025-05-22T11:00:37 IST" name="amConfig" finished-at="2025-05-22T11:00:37 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:inventoryTests.AddProductToCartTest@38afe297]" started-at="2025-05-22T11:00:37 IST" name="bmConfig" finished-at="2025-05-22T11:00:37 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="tc_01_AddProductToCartTest()[pri:0, instance:inventoryTests.AddProductToCartTest@38afe297]" started-at="2025-05-22T11:00:37 IST" name="tc_01_AddProductToCartTest" finished-at="2025-05-22T11:00:38 IST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_AddProductToCartTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:inventoryTests.AddProductToCartTest@38afe297]" started-at="2025-05-22T11:00:38 IST" name="amConfig" finished-at="2025-05-22T11:00:38 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:inventoryTests.AddProductToCartTest@38afe297]" started-at="2025-05-22T11:00:38 IST" name="acConfig" finished-at="2025-05-22T11:00:38 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- inventoryTests.AddProductToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

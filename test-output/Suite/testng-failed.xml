@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="tests" name="TestRunner1(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="inventoryTests.AddLowestPriceProductToCartText">
+        <methods>
+          <include name="tc_02_AddLowestPriceProductToCartText"/>
+          <include name="amConfig"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="acConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- inventoryTests.AddLowestPriceProductToCartText -->
+      <class name="inventoryTests.AddMultipleProductToCartTest">
+        <methods>
+          <include name="amConfig"/>
+          <include name="tc_04_AddMultipleProductToCartTest"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="acConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- inventoryTests.AddMultipleProductToCartTest -->
       <class name="inventoryTests.AddProductToCartTest">
         <methods>
           <include name="amConfig"/>
@@ -11,9 +33,21 @@
           <include name="acConfig"/>
           <include name="bsConfig"/>
           <include name="asConfig"/>
+          <include name="tc_01_AddProductToCartTest"/>
           <include name="samepleTest"/>
         </methods>
       </class> <!-- inventoryTests.AddProductToCartTest -->
+      <class name="inventoryTests.LoginTest">
+        <methods>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
+          <include name="tc_03_LoginTest"/>
+          <include name="bmConfig"/>
+          <include name="acConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+        </methods>
+      </class> <!-- inventoryTests.LoginTest -->
     </classes>
-  </test> <!-- TestRunner1(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
