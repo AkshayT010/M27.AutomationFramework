@@ -3,12 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.AssertionPractice">
+      <class name="inventoryTests.AddLowestPriceProductToCartText">
         <methods>
-          <include name="sampleSoft"/>
-          <include name="sampleHard"/>
+          <include name="tc_02_AddLowestPriceProductToCartText"/>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
+          <include name="bmConfig"/>
+          <include name="acConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
         </methods>
-      </class> <!-- practice.AssertionPractice -->
+      </class> <!-- inventoryTests.AddLowestPriceProductToCartText -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,6 +3,7 @@ package genericUtilities;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -47,7 +48,7 @@ public class BaseClass {
 	{
 		String URL = fUtil.readDataFromPropertyFile("url");
 		
-		driver = new FirefoxDriver();
+		driver = new ChromeDriver();
 		
 		//For cross browser execution -- This is example of Runtime Polymorphism - driver
 		
